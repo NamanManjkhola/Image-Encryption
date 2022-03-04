@@ -15,4 +15,4 @@ Generates random keys using logistic map function.
 1. [**CODE**](https://github.com/NamanManjkhola/Image-Encryption/blob/4905574b9df2a02003b43bdaf909ba1f05fdf5b7/Image%20Security%20using%20encryption/code.py)
 2. [**REPORT**](https://github.com/NamanManjkhola/Image-Encryption/blob/4905574b9df2a02003b43bdaf909ba1f05fdf5b7/Image%20Security%20using%20encryption/Report.pdf)
 3. [**Encryption overview**](https://github.com/NamanManjkhola/Image-Encryption/blob/4905574b9df2a02003b43bdaf909ba1f05fdf5b7/Image%20Security%20using%20encryption/Encryption_overview.md)
-4. [**Image processing overview**](https://github.com/NamanManjkhola/Image-Encryption/blob/4905574b9df2a02003b43bdaf909ba1f05fdf5b7/Image%20Security%20using%20encryption/Image_processing.md.)
+4. [**Image processing overview**](https://github.com/NamanManjkhola/Image-Encryption/blob/0d9625dd14e8b0c19dfb7bdf1c0cb9a1effa232f/Image%20Security%20using%20encryption/Image_processing.md)
