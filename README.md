@@ -1,4 +1,4 @@
-# Mini-Project
+# Mini-Projects
 This repository contains projects in tech domain.</br>
 | S.No. | Projects |
 |-------|----------|
