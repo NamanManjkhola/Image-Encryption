@@ -1,4 +1,5 @@
 # author - Naman Manjkhola
+# Image Encryption - chaotic XOR cipher
 import numpy as np
 from tkinter import *
 from tkinter import messagebox
@@ -17,6 +18,7 @@ def key_generator(a, x, size, row, column, height):
                 key[i][j][k] = int(a*pow(10,16) % 256)
     return key
 
+# XORs binary data of image with input keys
 def xor_bindata(filename,password1,password2):
     file = open(filename, "rb")
     bindata = file.read()
