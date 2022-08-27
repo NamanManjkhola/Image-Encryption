@@ -2,6 +2,9 @@
 Hi There! 👋
 
 A simple GUI based Image encryption tool that uses chaotic XOR technique encrypt an image.
+
+![enImg](https://user-images.githubusercontent.com/77687018/187018437-d3014d3f-4241-476a-bd8a-56513b0b6ebb.png)
+
 ### overview of some functions in the code
 1. **key_generator() :**</br> 
 Generates random keys using logistic map function. 
