@@ -4,6 +4,7 @@ import numpy as np
 from tkinter import *
 from tkinter import messagebox
 from tkinter import filedialog
+import customtkinter
 import os
 import cv2
 
@@ -140,22 +141,22 @@ class Application:
       developerName = "Developed by - Naman Manjkhola"
       global inputBox,inputBox2
 
-      title = Label(master, text=appName)
+      title = customtkinter.CTkLabel(master, text=appName)
       title.pack()
       title.config(font = ("Trajan Pro",25, 'bold'), pady=10)
-      title2 = Label(master, text=developerName)
+      title2 = customtkinter.CTkLabel(master, text=developerName)
       title2.pack()
       title2.config(font=("Trajan Pro",10), pady=10)
-      mylabel = Label(master, text="Enter Encryption / Decryption keys(1-255)")
+      mylabel = customtkinter.CTkLabel(master, text="Enter Encryption / Decryption keys(1-255)")
       mylabel.pack()
       mylabel.config(font=("Trajan Pro",11), pady=10)
-      inputBox = Entry(master, width=20, selectbackground='green')
+      inputBox = customtkinter.CTkEntry(master, width=20, selectbackground='green')
       inputBox.pack()
-      inputBox2 = Entry(master, width=20, selectbackground='green')
+      inputBox2 = customtkinter.CTkEntry(master, width=20, selectbackground='green')
       inputBox2.pack()
-      self.encrypt = Button(master, text="Encrypt", padx=20, pady=5, command=select_image)
+      self.encrypt = customtkinter.CTkButton(master, text="Encrypt", padx=20, pady=5, command=select_image)
       self.encrypt.pack(side=LEFT)
-      self.decrypt = Button(master, text="Decrypt", padx=20, pady=5, command=select_cipher)
+      self.decrypt = customtkinter.CTkButton(master, text="Decrypt", padx=20, pady=5, command=select_cipher)
       self.decrypt.pack(side=RIGHT)
 
 
@@ -163,10 +164,10 @@ class Application:
 # ------------------------#
 #        MAIN             #
 #-------------------------#
-root = Tk()
-root.wm_title("Image Encryption")
-root.geometry('400x250')
+root_tk = customtkinter.CTk()
+root_tk.title("Image Encryption")
+root_tk.geometry(f"{450}x{300}")
 p1 = PhotoImage(file = 'C:/Users/asus/Downloads/enicon.png')
-root.iconphoto(False, p1)
-app = Application(root)
-root.mainloop()
+root_tk.iconphoto(False, p1)
+app = Application(root_tk)
+root_tk.mainloop()
